@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.2100000000000055"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="229"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM shift]]>
+	</queryString>
+	<field name="no" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nip" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="divisi" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="bulan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="minggu" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="shift" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="138" splitType="Stretch">
+			<image scaleImage="FillFrame">
+				<reportElement x="55" y="4" width="135" height="126"/>
+				<imageExpression><![CDATA["D:\\shift.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="169" y="28" width="298" height="27"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PT ROCKET PUNCHER AREA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="169" y="55" width="298" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="14"/>
+				</textElement>
+				<text><![CDATA[JALAN PULAU TIMOR 7 BEKASI TIMUR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="169" y="75" width="298" height="20" />
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="12"/>
+				</textElement>
+				<text><![CDATA[Telp : 092893249203]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="129" y="111" width="298" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LAPORAN DATA SHIFT KARYAWAN]]></text>
+			</staticText>
+			<line>
+				<reportElement x="1" y="107" width="555" height="1"/>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="23" splitType="Stretch">
+			<staticText>
+				<reportElement x="1" y="2" width="54" height="20" />
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NIP]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="0" width="1" height="23"/>
+			</line>
+			<line>
+				<reportElement x="1" y="0" width="554" height="1"/>
+			</line>
+			<line>
+				<reportElement x="555" y="0" width="1" height="23"/>
+			</line>
+			<line>
+				<reportElement x="57" y="0" width="1" height="23"/>
+			</line>
+			<staticText>
+				<reportElement x="58" y="2" width="62" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NAMA]]></text>
+			</staticText>
+			<line>
+				<reportElement x="121" y="0" width="1" height="23"/>
+			</line>
+			<staticText>
+				<reportElement x="122" y="2" width="100" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DIVISI]]></text>
+			</staticText>
+			<line>
+				<reportElement x="225" y="0" width="1" height="23"/>
+			</line>
+			<staticText>
+				<reportElement x="228" y="2" width="56" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BULAN]]></text>
+			</staticText>
+			<line>
+				<reportElement x="286" y="0" width="1" height="23"/>
+			</line>
+			<staticText>
+				<reportElement x="287" y="2" width="63" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MINGGU]]></text>
+			</staticText>
+			<line>
+				<reportElement x="350" y="0" width="1" height="23"/>
+			</line>
+			<staticText>
+				<reportElement x="358" y="2" width="197" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SHIFT]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="23" splitType="Stretch">
+			<textField>
+				<reportElement x="1" y="3" width="54" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nip}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="0" width="1" height="23"/>
+			</line>
+			<line>
+				<reportElement x="1" y="0" width="554" height="1"/>
+			</line>
+			<line>
+				<reportElement x="57" y="0" width="1" height="23"/>
+			</line>
+			<textField>
+				<reportElement x="58" y="3" width="62" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="121" y="0" width="1" height="23"/>
+			</line>
+			<textField>
+				<reportElement x="123" y="3" width="100" height="20" />
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{divisi}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="225" y="0" width="1" height="23"/>
+			</line>
+			<textField>
+				<reportElement x="228" y="3" width="56" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bulan}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="286" y="0" width="1" height="23"/>
+			</line>
+			<textField>
+				<reportElement x="287" y="3" width="63" height="20" />
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{minggu}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="350" y="0" width="1" height="23"/>
+			</line>
+			<textField>
+				<reportElement x="358" y="3" width="197" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="false" isItalic="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{shift}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="555" y="-1" width="1" height="23"/>
+			</line>
+			<line>
+				<reportElement x="1" y="22" width="555" height="1" />
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="118" splitType="Stretch">
+			<textField>
+				<reportElement x="435" y="13" width="120" height="20" />
+				<textElement>
+					<font fontName="Verdana" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd MMMM yyyy").format(new Date())]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="386" y="13" width="100" height="20"/>
+				<textElement>
+					<font fontName="Verdana" size="12"/>
+				</textElement>
+				<text><![CDATA[Bekasi, ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="393" y="33" width="162" height="20" />
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="12"/>
+				</textElement>
+				<text><![CDATA[HRD MANAGER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="393" y="98" width="162" height="20" />
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Verdana" size="12"/>
+				</textElement>
+				<text><![CDATA[CAHYANING]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
